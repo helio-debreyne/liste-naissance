@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="liste.css">
+	</head>	
+<body class="formulaire">
+<header class="header2">
+	<a href="liste.html"><button class="button" type="button">Liste de naissance</button></a>
+</header>
+<section>
+	<article class="form">	
+	<form action="agenda.html">
+		<label>
+			Nom objet :
+			<input type="text" required>
+		</label>
+		<label>
+			Photo :<br>
+			<input type="file" id="file" accept="image/png, image/jpeg" required>
+		</label>
+		<label>
+			<br>Catégorie :
+			<select required>
+				<option></option>
+				<option>Alimentations</option>
+				<option>Vétements</option>
+				<option>Toilette</option>
+				<option>Aménagement</option>	
+				<option>Jouets</option>
+				<option>Sécurité</option>				
+			</select>
+		</label>
+		<label>
+			Description :
+			<textarea required></textarea>
+		</label>
+		<label>
+			Lien vers le site:
+			<input type="text" required>
+		</label>
+			<input type="submit" value="Ajouter">
+			<input type="reset" value="Effacer">
+	</form>	
+	</article>
+</section>     
+</body>
+</html>
